@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("Enter your Role:");
+        String message=scanner.nextLine();
+        
+        System.out.println(message);
+      /*  Concatenation - Joining Strings Together
+The string to be printed can be formed from multiple strings using the + operator. For example, the program below prints "Hello world!" on one line. */
+        System.out.println("hii"+"guys");
+
+      //The same method can be used to join a string literal and the value of a string variable.
+
+              System.out.println(message + "hii"+"guys");
+//We can do the same with any number of strings.
+
+              System.out.println(message + "hii"+ message );
+
+
+    }
+}
